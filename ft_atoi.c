@@ -6,13 +6,13 @@
 /*   By: lchimes <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/06 17:31:24 by lchimes           #+#    #+#             */
-/*   Updated: 2017/06/09 14:38:51 by lchimes          ###   ########.fr       */
+/*   Updated: 2017/06/09 15:25:57 by lchimes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int ft_checklen(const char *str)
+static int	ft_checklen(const char *str)
 {
 	int		i;
 
@@ -32,7 +32,7 @@ static int ft_checklen(const char *str)
 		return (1);
 }
 
-int		ft_atoi(const char *str)
+int			ft_atoi(const char *str)
 {
 	int		ans;
 	int		n;
